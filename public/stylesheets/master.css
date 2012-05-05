@@ -1,0 +1,105 @@
+/*-------------------------+
+ | Site: Save Obando       |
+ | Part: Master stylesheet |
+ +-------------------------*/
+
+
+/* Imports
+=====================================================================*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,700,700italic);
+@import "reset.css";
+
+
+/* Fonts
+=====================================================================*/
+body { font-family: "Open Sans", Arial, sans-serif; }
+
+
+/* Basics
+=====================================================================*/
+a { color: #fff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+blockquote, dl, ol, p, table, ul { margin-bottom: 1.5em; }
+body { background: #232323; color: #c6c6c6; font-size: 14px; line-height: 1.4; padding-bottom: 30px; }
+dt { margin-top: 1em; }
+dt:first-child { margin: 0; }
+h1 { font-size: 37px; margin-bottom: 0.5em; }
+h1, h3, h4, h5, h6, strong { font-weight: bold; }
+h2 { font-size: 25px; font-weight: 300; margin-bottom: 0.3em; }
+ul { list-style: disc; margin-left: 1.5em; }
+
+
+/* Layout
+=====================================================================*/
+.clear { clear: both; }
+.content { margin: 0 auto; width: 980px; }
+
+
+/* Content
+=====================================================================*/
+
+/* Contact */
+.contact li.phone { font-size: 25px; }
+.contact li { margin-bottom: 1em; padding-left: 50px; }
+.contact ul { list-style: none; margin-left: 0; }
+
+/* Footer */
+#footer { color: #666; font-size: 12px; padding-top: 20px; }
+#footer a { color: #999; }
+#footer p { margin: 0; }
+
+/* Header */
+#header .content { padding: 45px 0 45px 252px; position: relative; width: 728px; }
+#logo img { box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); left: 0; position: absolute; top: 0; }
+#nav { float: left; font-size: 18px; font-weight: bold; margin: 0; text-transform: uppercase; }
+#nav li { display: inline; margin-right: 1em; }
+#social { float: right; }
+
+/* Help */
+#help { background: #fff url(../images/help-bg.png) 50% -250px; color: #000; padding: 25px 0 40px; }
+#help .contact .mail { background: url(../images/envelope-dark.png) no-repeat 0 3px; }
+#help .contact .phone { background: url(../images/phone-dark.png) no-repeat 0 3px; }
+#help h1, #help h2 { color: #187d3e; }
+#help .share li { display: inline; margin-right: 5px; }
+#help-primary { float: left; margin-bottom: 30px; width: 48.46%; }
+#help-secondary { float: right; margin-bottom: 30px; width: 48.46%; }
+#posters { list-style: none; margin: 0; }
+#posters a:hover img { box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); }
+#posters li { float: left; margin-right: 15px; }
+
+/* Impact */
+#map { height: 500px; }
+
+/* Intro */
+#intro {
+  background: url(../images/intro-bg.jpg) 50% 0 no-repeat;
+  clear: both;
+  color: #fff;
+  font-size: 25px;
+  padding-top: 35px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+}
+
+#intro .contact { float: right; font-size: 14px; margin: 0; width: 65.24%; }
+#intro .contact h2 { font-weight: bold; }
+#intro .contact .mail { background: url(../images/envelope-light.png) no-repeat 0 3px; }
+#intro .contact .phone { background: url(../images/phone-light.png) no-repeat 0 3px; }
+#intro .content { padding-left: 252px; width: 728px; }
+#intro h1 { font-size: 45px; line-height: 1.2; margin: 0; text-transform: uppercase; width: 65.24%; }
+#intro p { margin-bottom: 0.65em; }
+#intro strong { color: #c62d24; }
+#intro .share { float: left; margin: 0; }
+#intro .share img { display: block; }
+#intro .share li { margin-bottom: 0.5em; }
+
+/* News */
+#news { background: #1c3b26 url(../images/news-bg.png) no-repeat 50% 0; padding: 30px 0; }
+#news-primary { float: left; width: 48.46%; }
+#news-secondary { float: right; width: 48.46%; }
+
+/* Sharing buttons */
+.share { list-style: none; margin-left: 0; }
+.share a:hover img { opacity: 0.7; }
+
+/* Timeline */
+#timeline { background: url(../images/timeline-bg.jpg); }
