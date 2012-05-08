@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>obando-mangroves.kml</name>
+	<Style id="default_normal">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<p><b><font color="#000000">$[NAME/displayName]:</font></b> <font color="#555555">$[NAME]</font></p>
+            <p><b><font color="#000000">$[TYPE/displayName]:</font></b> <font color="#555555">$[TYPE]</font></p>
+          <p align="center"><font size=3 face=arial color="#0099FF">Powered by GeoCommons</font></p>]]></text>
+			<bgColor>00ffffff</bgColor>
+		</BalloonStyle>
+		<LineStyle>
+			<color>eeff6600</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9944ff00</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="default">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default_highlight">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<p><b><font color="#000000">$[NAME/displayName]:</font></b> <font color="#555555">$[NAME]</font></p>
+            <p><b><font color="#000000">$[TYPE/displayName]:</font></b> <font color="#555555">$[TYPE]</font></p>
+          <p align="center"><font size=3 face=arial color="#0099FF">Powered by GeoCommons</font></p>]]></text>
+			<bgColor>00ffffff</bgColor>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ddffffff</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>9944ff00</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Obando - mangroves</name>
+		<Placemark>
+			<name>Name:</name>
+			<open>1</open>
+			<styleUrl>#default</styleUrl>
+			<ExtendedData>
+				<Data name="Name">
+					<displayName>Name</displayName>
+					<value>Mangrove</value>
+				</Data>
+				<Data name="Type">
+					<displayName>Type</displayName>
+					<value>forest</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								120.9210528,14.6892484,0 120.9201676,14.6899282,0 120.9194381,14.6898244,0 120.9184009,14.6906087,0 120.917387,14.6913611,0 120.916257,14.6922736,0 120.9151787,14.6930572,0 120.9137196,14.6944582,0 120.9124732,14.6953151,0 120.9121103,14.695745,0 120.9124804,14.6960408,0 120.9128238,14.6963158,0 120.9129042,14.6967828,0 120.9131295,14.6969385,0 120.9135836,14.6960208,0 120.9141254,14.6956109,0 120.9145887,14.6950705,0 120.9154523,14.6942973,0 120.9158761,14.6941105,0 120.9170061,14.6931358,0 120.9178476,14.6923361,0 120.9184779,14.6919208,0 120.9191001,14.6914745,0 120.919878,14.6907065,0 120.92067,14.6899341,0 120.9211689,14.6894931,0 120.9210528,14.6892484,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Name:</name>
+			<open>1</open>
+			<styleUrl>#default</styleUrl>
+			<ExtendedData>
+				<Data name="Name">
+					<displayName>Name</displayName>
+					<value>Mangrove</value>
+				</Data>
+				<Data name="Type">
+					<displayName>Type</displayName>
+					<value>forest</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								120.9116758,14.696129,0 120.9111983,14.6962224,0 120.9103293,14.6971461,0 120.9092779,14.6981112,0 120.9080763,14.6990763,0 120.9071624,14.6998398,0 120.906129,14.7010948,0 120.9052975,14.7019613,0 120.9044714,14.7026151,0 120.9035809,14.7036165,0 120.9031249,14.7042651,0 120.9032107,14.7046281,0 120.9028728,14.7051781,0 120.9028084,14.7059564,0 120.9025724,14.7063455,0 120.9017731,14.7073625,0 120.9014405,14.7078917,0 120.901401,14.7084583,0 120.9012795,14.7093549,0 120.9009362,14.710595,0 120.9005446,14.711228,0 120.9001262,14.7112436,0 120.8998722,14.7122408,0 120.8998848,14.7128468,0 120.9000404,14.713293,0 120.9003247,14.7124317,0 120.9012884,14.7109956,0 120.9020877,14.7096932,0 120.9026617,14.7087178,0 120.903082,14.7080007,0 120.9033698,14.7079706,0 120.9039993,14.7073314,0 120.904389,14.7065904,0 120.9049362,14.7054385,0 120.9048147,14.7053493,0 120.9048825,14.7052206,0 120.9062397,14.7036329,0 120.9076881,14.7019569,0 120.907926,14.7017278,0 120.9084177,14.7010488,0 120.9085269,14.7007627,0 120.9086591,14.7004936,0 120.9090579,14.7001608,0 120.9096944,14.6997516,0 120.9101397,14.6992328,0 120.9107351,14.698579,0 120.9111857,14.6980393,0 120.911252,14.6977168,0 120.911547,14.6974211,0 120.9119655,14.6970267,0 120.9121586,14.6967828,0 120.9116758,14.696129,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
