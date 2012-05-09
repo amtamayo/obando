@@ -40,26 +40,7 @@
       };
       
       var map = new google.maps.Map(document.getElementById("map"), myOptions);
-      
-      
-        $(window).bind("load", function(){ var geocoder = new google.maps.Geocoder();
-			geocoder.setCache=null;
-	
-			// Google Maps caches KML files -- use a random query string parameter set to Date.
-			var url_end = "?nocache=" + (new Date()).valueOf();
-			var kmlFile = "../../data/obando-mangroves.kml" + url_end;
-				
-			var map = new google.maps.Map(document.getElementById("map"));
-			// Add controls
-			//map.addControl(new GLargeMapControl());
-			//map.addControl(new GMapTypeControl());
-                        geoxml = new google.maps.KmlLayer(kmlFile);
-                        geoxml.setMap(map);
-				
-			//map.setCenter(new google.maps.LatLng(14.712130960871153, 120.92282295227051);
-			
-        }); 
-       
+
     });
   </script>
   
