@@ -49,11 +49,11 @@ ul { list-style: disc; margin-left: 1.5em; }
 #footer p { margin: 0; }
 
 /* Header */
-#header .content { padding: 45px 0 45px 252px; position: relative; width: 728px; }
+#header .content { padding: 60px 0 24px 252px; position: relative; width: 728px; }
 #logo img { box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); left: 0; position: absolute; top: 0; }
 #nav { float: left; font-size: 18px; font-weight: bold; margin: 0; text-transform: uppercase; }
 #nav li { display: inline; margin-right: 1em; }
-#social { float: right; }
+#social { position: absolute; right: 0; top: 15px; }
 
 /* Help */
 #help { background: #fff url(../images/help-bg.png) 50% -250px; color: #000; padding: 25px 0 40px; }
