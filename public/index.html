@@ -12,11 +12,11 @@
   <link rel="Shortcut Icon" href="../images/favicon.ico" type="image/x-icon" />
   
   <!-- Styles -->
-  <link href="/stylesheets/master.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/master.css" media="screen" rel="stylesheet" type="text/css" />
   
   <!-- JavaScript -->
-  <script src="/javascripts/jquery.min.js" type="text/javascript"></script>
-  <script src="/javascripts/jquery.ga-event-tracker.js" type="text/javascript"></script>
+  <script src="javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="javascripts/jquery.ga-event-tracker.js" type="text/javascript"></script>
   
   <script type='text/javascript'>
     $(function(){
@@ -51,7 +51,7 @@
 <!-- Header -->
 <div id="header">
   <div class="content">
-    <div id="logo"><img alt="No! To Obando Landfill" src="../images/logo.jpg" /></div>
+    <div id="logo"><img alt="No! To Obando Landfill" src="images/logo.jpg" /></div>
     
     <ul id="nav">
       <li><a href="#timeline">The story</a></li>
@@ -74,7 +74,7 @@
           ui_click: true
         };
       </script>
-        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fa5ee39492c45b8"></script>
+      <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fa5ee39492c45b8"></script>
       <!-- AddThis Button END -->
     </div>
     
@@ -88,12 +88,12 @@
   <div class="content">
     <h1>A river is no place for a landfill</h1>
     
-    <p>Ecoshield and Obando’s own Mayor Gabriel want to dump <strong>1,000 tons of garbage a day</strong> from surrounding cities in a new 109-acre landfill that will negatively affect the entire town.</p>
+    <p>Ecoshield and Obando's own Mayor Gabriel want to dump <strong>1,000 tons of garbage a day</strong> from surrounding cities in a new 109-acre landfill that will negatively affect the entire town.</p>
     
     <ul class="share">
-      <li><a href="http://www.facebook.com/share.php?u=http://www.saveobando.com"><img alt="Share on Facebook" src="../images/btn-facebook.png" /></a></li>
-      <li><a href="http://twitter.com/share?url=http://www.saveobando.com&amp;text=Save Obando. A river is no place for a landfill."><img alt="Share on Twitter" src="../images/btn-twitter.png" /></a></li>
-      <li><a href="#help"><img alt="Sign the petition" src="../images/btn-petition.png" /></a></li>
+      <li><a href="http://www.facebook.com/share.php?u=http://www.saveobando.com"><img alt="Share on Facebook" src="images/btn-facebook.png" /></a></li>
+      <li><a href="http://twitter.com/share?url=http://www.saveobando.com&amp;text=Save Obando. A river is no place for a landfill."><img alt="Share on Twitter" src="images/btn-twitter.png" /></a></li>
+      <li><a href="#help"><img alt="Sign the petition" src="images/btn-petition.png" /></a></li>
     </ul>
     
     <div class="contact">
@@ -115,27 +115,25 @@
 </div>
 <!-- /Intro -->
 
-<div id="timeline">
-  <div class="content">
-    <br />
-    <div id='timeline-embed'></div>
-    
-    <script type='text/javascript'>
+<!-- Timeline -->
+<div id="story">
+  <div id='timeline-embed'></div>
+  
+  <script type='text/javascript'>
     var timeline_config = {
-        width: "100%",
-        height: "700",
-        source: 'https://docs.google.com/spreadsheet/pub?key=0AgjPcinQQJ1YdFFRM0VmNkowVDl6eVFYQUttRWZUQ3c&output=html',
-        font: 'Merriweather-NewsCycle',
-        maptype: 'watercolor',
-        css: "/source/timeline.css",
-        js: "/source/timeline.js"
-        }</script>
-    <script type='text/javascript' src='/source/timeline-embed.js'></script>
-						
-    
-    <div class="clear"></div>
-  </div>
+      css: "source/timeline.css",
+      font: "BreeSerif-OpenSans",
+      height: 500,
+      js: "source/timeline.js",
+      maptype: "toner",
+      source: "https://docs.google.com/spreadsheet/pub?key=0AgjPcinQQJ1YdFFRM0VmNkowVDl6eVFYQUttRWZUQ3c&output=html",
+      width: "100%"
+    }
+  </script>
+  <script type='text/javascript' src='source/timeline-embed.js'></script>
+  <div class="clear"></div>
 </div>
+<!-- /Timeline -->
 
 <!-- Impact -->
 <div id="impact">
