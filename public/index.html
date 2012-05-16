@@ -163,15 +163,16 @@
       };
       
     var map = new google.maps.Map(document.getElementById("map"), myOptions);
-    var mangroves = new google.maps.KmlLayer('http://beta-save-obando.heroku.com/data/obando-mangroves.kml');
+    var landfills = new google.maps.KmlLayer('http://beta-save-obando.heroku.com/data/obando-landfills.kml');
+    landfills.setMap(map);
+
+   var mangroves = new google.maps.KmlLayer('http://beta-save-obando.heroku.com/data/obando-mangroves.kml');
     mangroves.setMap(map); 
 
     var fishfarms = new google.maps.KmlLayer('http://beta-save-obando.heroku.com/data/obando-farms.kml');
     fishfarms.setMap(map);
     
-    var landfills = new google.maps.KmlLayer('http://beta-save-obando.heroku.com/data/obando-landfills.kml');
-    landfills.setMap(map);
-
+ 
     });
   </script>
   

@@ -33,7 +33,7 @@
 			<width>0</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>9965ff00</color>
+			<color>#a00000ff</color>
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
@@ -58,7 +58,7 @@
 			<width>0</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>9965ff00</color>
+			<color>#a00000ff</color>
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
@@ -82,6 +82,8 @@
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>
+				<altitudeMode>absolute</altitudeMode> 
+				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -139,7 +141,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -168,7 +170,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>relativeToGround</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -197,7 +199,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -226,7 +228,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -255,7 +257,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -284,7 +286,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -313,7 +315,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -342,7 +344,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -371,7 +373,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -400,7 +402,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -429,7 +431,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -458,7 +460,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -487,7 +489,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -516,7 +518,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -545,7 +547,7 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>
+				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
