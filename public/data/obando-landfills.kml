@@ -124,7 +124,7 @@
 		</Placemark>
 		<Placemark>
 			<name>NewLandfill</name>
-			<styleUrl>#parcelNormal</styleUrl>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<altitudeMode>absolute</altitudeMode> 
