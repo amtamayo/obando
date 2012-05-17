@@ -612,6 +612,20 @@
 		<Placemark>
 			<name>Obando Landfill Site</name>
 			<styleUrl>#default_bad</styleUrl>
+                        <ExtendedData>
+				<Data name="name">
+					<displayName>name</displayName>
+					<value>Obando Garbage Dumpsite/Landfill</value>
+				</Data>
+				<Data name="type">
+					<displayName>type</displayName>
+					<value>industrial/commercial waste</value>
+				</Data>
+				<Data name="size">
+					<displayName>size</displayName>
+					<value>44 hectares (109 acres)</value>
+				</Data>
+			</ExtendedData>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<altitudeMode>clampToGround</altitudeMode> 
