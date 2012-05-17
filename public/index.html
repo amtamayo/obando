@@ -163,15 +163,15 @@
       };
       
     var map = new google.maps.Map(document.getElementById("map"), myOptions);
-    var landfills = new google.maps.KmlLayer('http://beta-save-obando.heroku.com/data/obando-landfills.kml');
-    landfills.setMap(map);
-
-   var mangroves = new google.maps.KmlLayer('http://beta-save-obando.heroku.com/data/obando-mangroves.kml');
-    mangroves.setMap(map); 
-
-    var fishfarms = new google.maps.KmlLayer('http://beta-save-obando.heroku.com/data/obando-farms.kml');
-    fishfarms.setMap(map);
     
+    // Google Maps caches KML files -- use a random query string parameter set to Date.
+    var url_end = "?nocache=" + (new Date()).valueOf();
+    var server_root = "http://beta-save-obando.heroku.com/data/";
+    //var kmlFile = server_root + "gmap.kml" + url_end;
+				
+    
+    var parcels = new google.maps.KmlLayer(server_root + 'obando-parcels.kml' + url_end);
+    parcels.setMap(map);
  
     });
   </script>
