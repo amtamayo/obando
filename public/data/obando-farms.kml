@@ -33,7 +33,7 @@
 			<width>0</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>#a00000ff</color>
+			<color>9965ff00</color>
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
@@ -170,7 +170,9 @@
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>				<altitudeMode>relativeToGround</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
+				<Polygon>
+					<altitudeMode>absolute</altitudeMode>
+					<gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
