@@ -24,8 +24,8 @@
 			<scale>1</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>9944ff00</color>
-			<width>1</width>
+			<color>64FFFFFF</color>
+			<width>5</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>9944ff00</color>
@@ -1181,6 +1181,6 @@
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-	</Folder>        
+	</Folder>
 </Document>
 </kml>
