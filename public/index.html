@@ -132,6 +132,7 @@
   <script type='text/javascript' src='source/timeline-embed.js'></script>
   <div class="clear"></div>
 </div>
+
 <!-- /Timeline -->
 <!-- Impact -->
 <div id="impact">
@@ -165,9 +166,7 @@
     // Google Maps caches KML files -- use a random query string parameter set to Date.
     var url_end = "?nocache=" + (new Date()).valueOf();
     var server_root = "http://beta-save-obando.heroku.com/data/";
-    //var kmlFile = server_root + "gmap.kml" + url_end;
-				
-    
+
     var parcels = new google.maps.KmlLayer(server_root + 'obando-parcels.kml' + url_end);
     parcels.setMap(map);
  
