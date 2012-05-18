@@ -16,6 +16,14 @@
 			<color>64F0Dc14</color>
 			<outline>1</outline>
 		</PolyStyle>
+                <BalloonStyle>
+			<text><![CDATA[
+        $[impact]
+          
+        ]]>
+                        </text>
+			<bgColor>00ffffff</bgColor>
+		</BalloonStyle>
 	</Style>
         
         <Style id="default_natural">
@@ -31,6 +39,14 @@
 			<color>9944ff00</color>
 			<outline>1</outline>
 		</PolyStyle>
+                <BalloonStyle>
+			<text><![CDATA[
+        $[impact]
+          
+        ]]>
+                        </text>
+			<bgColor>00ffffff</bgColor>
+		</BalloonStyle>
 	</Style>
         
 	<Style id="default_bad">
@@ -46,6 +62,14 @@
 			<color>#a00000ff</color>
 			<outline>1</outline>
 		</PolyStyle>
+                <BalloonStyle>
+			<text><![CDATA[
+        $[impact]
+          
+        ]]>
+                        </text>
+			<bgColor>00ffffff</bgColor>
+		</BalloonStyle>
 	</Style>
 	<Folder>
 		<name>Obando - farms</name>
@@ -60,10 +84,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123213913.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>
@@ -89,10 +110,8 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123278592.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
+			    
 			</ExtendedData>
 			
 				<LineString>
@@ -118,10 +137,8 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123203775.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
+				
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -147,10 +164,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123203774.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>
@@ -178,10 +192,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123203772.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -207,10 +218,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123184713.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -236,10 +244,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123184714.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -265,20 +270,12 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123184712.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
-			
-				<LineString>				 				
-					
-						
-							<coordinates>
-								120.9309821,14.6798716,0 120.9309733,14.6798779,0 120.9296753,14.6808158,0 120.9278439,14.6818072,0 120.9269481,14.682487,0 120.9269931,14.6827151,0 120.9268751,14.6827669,0 120.9265908,14.6826632,0 120.9260576,14.6828035,0 120.9260168,14.6835557,0 120.9249793,14.684599,0 120.9243195,14.6850608,0 120.9234741,14.6858389,0 120.9232574,14.6860883,0 120.9237369,14.686856,0 120.9218197,14.6889216,0 120.9227853,14.6898608,0 120.9250298,14.6923616,0 120.9256874,14.6917029,0 120.9261273,14.6912981,0 120.926712,14.6909816,0 120.927286,14.6907637,0 120.9286003,14.6905198,0 120.9295391,14.6897103,0 120.9296678,14.689373,0 120.9302815,14.689051,0 120.9303545,14.6891395,0 120.9327867,14.6879769,0 120.9335141,14.6875309,0 120.9342061,14.6871157,0 120.9354185,14.6863789,0 120.935912,14.686052,0 120.9358691,14.6859586,0 120.9365182,14.6854293,0 120.9366308,14.6851802,0 120.9361802,14.6841942,0 120.9361502,14.6839397,0 120.9361373,14.6837168,0 120.9355601,14.6830939,0 120.9348306,14.6826113,0 120.9346213,14.6825386,0 120.9343081,14.6827828,0 120.9340742,14.6828136,0 120.9340613,14.682653,0 120.9341203,14.6825026,0 120.9323522,14.6811012,0 120.9309821,14.6798716,0 
-							</coordinates>
-						
-					
+				<LineString>
+                                    <coordinates>
+					120.9309821,14.6798716,0 120.9309733,14.6798779,0 120.9296753,14.6808158,0 120.9278439,14.6818072,0 120.9269481,14.682487,0 120.9269931,14.6827151,0 120.9268751,14.6827669,0 120.9265908,14.6826632,0 120.9260576,14.6828035,0 120.9260168,14.6835557,0 120.9249793,14.684599,0 120.9243195,14.6850608,0 120.9234741,14.6858389,0 120.9232574,14.6860883,0 120.9237369,14.686856,0 120.9218197,14.6889216,0 120.9227853,14.6898608,0 120.9250298,14.6923616,0 120.9256874,14.6917029,0 120.9261273,14.6912981,0 120.926712,14.6909816,0 120.927286,14.6907637,0 120.9286003,14.6905198,0 120.9295391,14.6897103,0 120.9296678,14.689373,0 120.9302815,14.689051,0 120.9303545,14.6891395,0 120.9327867,14.6879769,0 120.9335141,14.6875309,0 120.9342061,14.6871157,0 120.9354185,14.6863789,0 120.935912,14.686052,0 120.9358691,14.6859586,0 120.9365182,14.6854293,0 120.9366308,14.6851802,0 120.9361802,14.6841942,0 120.9361502,14.6839397,0 120.9361373,14.6837168,0 120.9355601,14.6830939,0 120.9348306,14.6826113,0 120.9346213,14.6825386,0 120.9343081,14.6827828,0 120.9340742,14.6828136,0 120.9340613,14.682653,0 120.9341203,14.6825026,0 120.9323522,14.6811012,0 120.9309821,14.6798716,0 
+				    </coordinates>
 				</LineString>
 			
 		</Placemark>
@@ -294,10 +291,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123210434.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -323,10 +317,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123203773.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -352,10 +343,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123203771.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -381,9 +369,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123275473.0</value>
+				<Data name="impact">
 				</Data>
 			</ExtendedData>
 			
@@ -410,10 +396,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123213304.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -439,10 +422,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123213912.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -468,10 +448,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123276089.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -497,10 +474,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123277449.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -526,10 +500,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123277447.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			
 				<LineString>				 				
@@ -548,11 +519,11 @@
 		<name>Obando - landfills</name>
 		<open>1</open>
 		<Placemark>
-			<name>Navotas Dumpsite</name>
+			<name>Navotas Controlled Disposal Facility</name>
                         <ExtendedData>
 				<Data name="name">
 					<displayName>name</displayName>
-					<value>Navotas Dumpsite</value>
+					<value>Navotas Controlled Disposal Facility</value>
 				</Data>
 				<Data name="type">
 					<displayName>type</displayName>
@@ -561,6 +532,9 @@
 				<Data name="size">
 					<displayName>size</displayName>
 					<value>10 hectares</value>
+				</Data>
+                                <Data name="impact">
+					<value>TThe Navotas Controlled Disposal Facility is a 10.9 hectare dump in the shoreline of the neighboring town of Navotas also operated by Phileco.  The now closed dumpsite sits on former fish farms.</value>
 				</Data>
                         </ExtendedData>
 			<styleUrl>#default_bad</styleUrl>
@@ -580,12 +554,12 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Tanza Navotas Sanitary Landfill</name>
+			<name>Navotas Sanitary Landfill</name>
 			<styleUrl>#default_bad</styleUrl>
                         <ExtendedData>
 				<Data name="name">
 					<displayName>name</displayName>
-					<value>Tanza Navotas Sanitary Landfill</value>
+					<value>Navotas Sanitary Landfill</value>
 				</Data>
 				<Data name="type">
 					<displayName>type</displayName>
@@ -595,6 +569,9 @@
 					<displayName>size</displayName>
 					<value>11.3 hectares</value>
 				</Data>
+                                <Data name="impact">
+                                    <value>The Navotas Sanitary Landfill, a privately-owned 27-acre (11 hectares) dumpsite located in Tanza, Navotas was touted by the Department of Environment and Natural Resources(DENR) as the alternative to the "controlled" dumpsite just two kilometers away. Building dumpsites in environmentally sensitive areas such as bodies of water is against the Republic Act 9003 but DENR and local governments get around the law by changing the terminology.  When the term "controlled" dumpsites fell out of favor in 2000, new landfills were called "sanitary." The Navotas Sanitary Landfill is owned and operated by Phileco </value>
+                                </Data>
 			</ExtendedData>
 			<Polygon>
 				<tessellate>1</tessellate>
@@ -625,6 +602,11 @@
 					<displayName>size</displayName>
 					<value>44 hectares (109 acres)</value>
 				</Data>
+                                <Data name="impact">
+                                    <value>Created from parcels of aquatic fish farms in Baranggay Salambao, in a river that is a tributary of Manila Bay, the Obando Sanitary Landfill will have a total area of 109-acres (44 hectares) and is expected to receive over 1,000 tons of daily waste from surrounding metropolitan cities.
+
+The site is adjacent to two exiting dumpsites in Navotas only 11 km away from the planned site.  If completed, the Obando dumpsite will be the third and largest of the three open dumpsites from converted fish farms in the area.  Obando has a total population of 58,000 (Philippine Census 2010).</value>
+                                </Data>
 			</ExtendedData>
 			<Polygon>
 				<tessellate>1</tessellate>
@@ -653,10 +635,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123213913.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>
@@ -684,10 +663,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123278592.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>
@@ -713,10 +689,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123203775.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -742,10 +715,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123203774.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>
@@ -773,13 +743,12 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123203772.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
-				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
+				<Polygon>
+                                    <altitudeMode>absolute</altitudeMode>
+                                    <gx:drawOrder>0</gx:drawOrder>
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
@@ -802,10 +771,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123184713.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -831,10 +797,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123184714.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -860,10 +823,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123184712.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -889,10 +849,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123210434.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -918,10 +875,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123203773.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -947,10 +901,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123203771.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -976,10 +927,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123275473.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -1005,10 +953,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123213304.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -1034,10 +979,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123213912.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -1063,10 +1005,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123276089.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -1092,10 +1031,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123277449.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -1121,10 +1057,7 @@
 					<displayName>type</displayName>
 					<value>farm</value>
 				</Data>
-				<Data name="osmid">
-					<displayName>osm_id</displayName>
-					<value>123277447.0</value>
-				</Data>
+				<Data name="impact"><value>Fish farming involves raising fish commercially in tanks or enclosures, usually for food. A facility that releases young (juvenile) fish into the wild for recreational fishing or to supplement a species' natural numbers is generally referred to as a fish hatchery. The most common fish species raised by fish farms are salmon, carp, and tilapia.</value></Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon>				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
@@ -1154,7 +1087,11 @@
 					<displayName>Type</displayName>
 					<value>forest</value>
 				</Data>
+                                <Data name="impact">
+                                    <value>Mangroves are forests of trees that grow in saline coastal habitats.  They are natural elements that protect shorelines from damaging storm and hurricane winds, waves, and floods. Mangroves also help prevent erosion by stabilizing sediments with their tangled root systems. They also serve as nursery areas for shrimp, crustaceans, mollusks, and fishes.  Note that the site of the Obando Sanitary Landfill will be constructed from a sizeable portion of the mangroves which is the last natural protective barrier for the towns of Obando and Navotas against more severe flooding.</value>
+                                </Data>
 			</ExtendedData>
+                        
 			<MultiGeometry>
 				<Polygon>
 					<altitudeMode>absolute</altitudeMode>
@@ -1182,6 +1119,10 @@
 					<displayName>Type</displayName>
 					<value>forest</value>
 				</Data>
+                                <Data name="impact">
+                                    <value>Mangroves are forests of trees that grow in saline coastal habitats.  They are natural elements that protect shorelines from damaging storm and hurricane winds, waves, and floods. Mangroves also help prevent erosion by stabilizing sediments with their tangled root systems. They also serve as nursery areas for shrimp, crustaceans, mollusks, and fishes.  Note that the site of the Obando Sanitary Landfill will be constructed from a sizeable portion of the mangroves which is the last natural protective barrier for the towns of Obando and Navotas against more severe flooding.</value>
+                                </Data>
+
 			</ExtendedData>
 			<MultiGeometry>
 				<Polygon> 				<altitudeMode>absolute</altitudeMode>  				<gx:drawOrder>0</gx:drawOrder>
