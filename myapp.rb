@@ -1,6 +1,4 @@
 #myapp.rb
-#Vince is back!
-#another change
 require 'rubygems'
 require 'sinatra'
 
